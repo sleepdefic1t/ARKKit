@@ -1,4 +1,4 @@
-# <img style="float: center;" src="https://github.com/sleepdefic1t/ARKKit/blob/master/ARKKit-Banner.png" width="600" height="125"> 
+# <img src="https://github.com/sleepdefic1t/ARKKit/blob/master/ARKKit-Banner.png" alt="ARKKit" style="width=65%;">
 a  macOS  &  iOS  Swift  Framework  for  [Ark.io](https://ark.io).
 
 [![Swift Version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://min-api.cryptocompare.com/data/price?fsym=ARK&tsyms=USD,BTC,EUR)
