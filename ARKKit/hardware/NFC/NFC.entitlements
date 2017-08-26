@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   NFC.entitlements
+   ARKKit
+
+   Created by simon on 8/26/17.
+   Copyright (c) 2017 sleepdefic1t. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>com.apple.developer.nfc.readersession.formats</key>
+        <array>
+            <string>NDEF</string>
+        </array>
+    </dict>
+</plist>

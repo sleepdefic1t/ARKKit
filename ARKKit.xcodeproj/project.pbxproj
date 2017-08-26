@@ -1,0 +1,1083 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F41E5A851F51E91B0071AAF0 /* ARKKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41E5A7C1F51E91A0071AAF0 /* ARKKit_iOS.framework */; };
+		F41E5A8A1F51E91B0071AAF0 /* ARKKit_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41E5A891F51E91B0071AAF0 /* ARKKit_iOSTests.swift */; };
+		F41E5A8C1F51E91B0071AAF0 /* ARKKit_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F41E5A7E1F51E91A0071AAF0 /* ARKKit_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41E5AA11F51E92C0071AAF0 /* ARKKit_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41E5A981F51E92B0071AAF0 /* ARKKit_macOS.framework */; };
+		F41E5AA61F51E92C0071AAF0 /* ARKKit_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41E5AA51F51E92C0071AAF0 /* ARKKit_macOSTests.swift */; };
+		F41E5AA81F51E92C0071AAF0 /* ARKKit_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F41E5A9A1F51E92B0071AAF0 /* ARKKit_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41E5AAF1F51E9460071AAF0 /* ARKKit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442158A1F51DAB600B2FD34 /* ARKKit_Tests.swift */; };
+		F41E5AB01F51E9470071AAF0 /* ARKKit_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442158A1F51DAB600B2FD34 /* ARKKit_Tests.swift */; };
+		F41E5AB11F51E9730071AAF0 /* ARK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442150B1F51A70B00B2FD34 /* ARK.swift */; };
+		F41E5AB21F51E9730071AAF0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442150E1F51A72E00B2FD34 /* API.swift */; };
+		F41E5AB31F51E9730071AAF0 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44215111F51A79F00B2FD34 /* Defaults.swift */; };
+		F41E5AB41F51E9730071AAF0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77BB1F51A0C0000D683D /* Account.swift */; };
+		F41E5AB51F51E9730071AAF0 /* Accountable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77BE1F51A0E0000D683D /* Accountable.swift */; };
+		F41E5AB61F51E9730071AAF0 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C21F51A109000D683D /* Block.swift */; };
+		F41E5AB71F51E9730071AAF0 /* Blockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C51F51A11F000D683D /* Blockable.swift */; };
+		F41E5AB81F51E9730071AAF0 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C91F51A14D000D683D /* Delegate.swift */; };
+		F41E5AB91F51E9730071AAF0 /* Delegable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77CC1F51A163000D683D /* Delegable.swift */; };
+		F41E5ABA1F51E9730071AAF0 /* Forging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D11F51A1AB000D683D /* Forging.swift */; };
+		F41E5ABB1F51E9730071AAF0 /* Forgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D41F51A1D9000D683D /* Forgeable.swift */; };
+		F41E5ABC1F51E9730071AAF0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D81F51A1FC000D683D /* Network.swift */; };
+		F41E5ABD1F51E9730071AAF0 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77DB1F51A213000D683D /* Networkable.swift */; };
+		F41E5ABE1F51E9730071AAF0 /* NetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44215141F51A93B00B2FD34 /* NetworkType.swift */; };
+		F41E5ABF1F51E9730071AAF0 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77DF1F51A245000D683D /* Peer.swift */; };
+		F41E5AC01F51E9730071AAF0 /* Peerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E21F51A26A000D683D /* Peerable.swift */; };
+		F41E5AC11F51E9730071AAF0 /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E61F51A2B6000D683D /* Port.swift */; };
+		F41E5AC21F51E9730071AAF0 /* IPPortable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E91F51A305000D683D /* IPPortable.swift */; };
+		F41E5AC31F51E9730071AAF0 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77ED1F51A356000D683D /* Price.swift */; };
+		F41E5AC41F51E9730071AAF0 /* Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77F11F51A3B3000D683D /* Seed.swift */; };
+		F41E5AC51F51E9730071AAF0 /* Seedable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77F41F51A3F0000D683D /* Seedable.swift */; };
+		F41E5AC61F51E9730071AAF0 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4EB1F51A49A00F9FC44 /* Transaction.swift */; };
+		F41E5AC71F51E9730071AAF0 /* Transactionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4EE1F51A4B800F9FC44 /* Transactionable.swift */; };
+		F41E5AC81F51E9730071AAF0 /* TransactionAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4F11F51A4DC00F9FC44 /* TransactionAsset.swift */; };
+		F41E5AC91F51E9730071AAF0 /* TransactionAssetDelegable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4F41F51A50D00F9FC44 /* TransactionAssetDelegable.swift */; };
+		F41E5AE31F51E9750071AAF0 /* ARK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442150B1F51A70B00B2FD34 /* ARK.swift */; };
+		F41E5AE41F51E9750071AAF0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442150E1F51A72E00B2FD34 /* API.swift */; };
+		F41E5AE51F51E9750071AAF0 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44215111F51A79F00B2FD34 /* Defaults.swift */; };
+		F41E5AE61F51E9750071AAF0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77BB1F51A0C0000D683D /* Account.swift */; };
+		F41E5AE71F51E9750071AAF0 /* Accountable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77BE1F51A0E0000D683D /* Accountable.swift */; };
+		F41E5AE81F51E9750071AAF0 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C21F51A109000D683D /* Block.swift */; };
+		F41E5AE91F51E9750071AAF0 /* Blockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C51F51A11F000D683D /* Blockable.swift */; };
+		F41E5AEA1F51E9750071AAF0 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C91F51A14D000D683D /* Delegate.swift */; };
+		F41E5AEB1F51E9750071AAF0 /* Delegable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77CC1F51A163000D683D /* Delegable.swift */; };
+		F41E5AEC1F51E9750071AAF0 /* Forging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D11F51A1AB000D683D /* Forging.swift */; };
+		F41E5AED1F51E9750071AAF0 /* Forgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D41F51A1D9000D683D /* Forgeable.swift */; };
+		F41E5AEE1F51E9750071AAF0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D81F51A1FC000D683D /* Network.swift */; };
+		F41E5AEF1F51E9750071AAF0 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77DB1F51A213000D683D /* Networkable.swift */; };
+		F41E5AF01F51E9750071AAF0 /* NetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44215141F51A93B00B2FD34 /* NetworkType.swift */; };
+		F41E5AF11F51E9750071AAF0 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77DF1F51A245000D683D /* Peer.swift */; };
+		F41E5AF21F51E9750071AAF0 /* Peerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E21F51A26A000D683D /* Peerable.swift */; };
+		F41E5AF31F51E9750071AAF0 /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E61F51A2B6000D683D /* Port.swift */; };
+		F41E5AF41F51E9750071AAF0 /* IPPortable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E91F51A305000D683D /* IPPortable.swift */; };
+		F41E5AF51F51E9750071AAF0 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77ED1F51A356000D683D /* Price.swift */; };
+		F41E5AF61F51E9750071AAF0 /* Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77F11F51A3B3000D683D /* Seed.swift */; };
+		F41E5AF71F51E9750071AAF0 /* Seedable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77F41F51A3F0000D683D /* Seedable.swift */; };
+		F41E5AF81F51E9750071AAF0 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4EB1F51A49A00F9FC44 /* Transaction.swift */; };
+		F41E5AF91F51E9750071AAF0 /* Transactionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4EE1F51A4B800F9FC44 /* Transactionable.swift */; };
+		F41E5AFA1F51E9750071AAF0 /* TransactionAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4F11F51A4DC00F9FC44 /* TransactionAsset.swift */; };
+		F41E5AFB1F51E9750071AAF0 /* TransactionAssetDelegable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4F41F51A50D00F9FC44 /* TransactionAssetDelegable.swift */; };
+		F41E5B151F51E99E0071AAF0 /* ARK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442150B1F51A70B00B2FD34 /* ARK.swift */; };
+		F41E5B161F51E99E0071AAF0 /* ARK.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442150B1F51A70B00B2FD34 /* ARK.swift */; };
+		F41E5B171F51EA300071AAF0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442150E1F51A72E00B2FD34 /* API.swift */; };
+		F41E5B181F51EA300071AAF0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F442150E1F51A72E00B2FD34 /* API.swift */; };
+		F41E5B191F51EA380071AAF0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77BB1F51A0C0000D683D /* Account.swift */; };
+		F41E5B1A1F51EA380071AAF0 /* Accountable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77BE1F51A0E0000D683D /* Accountable.swift */; };
+		F41E5B1B1F51EA380071AAF0 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C21F51A109000D683D /* Block.swift */; };
+		F41E5B1C1F51EA380071AAF0 /* Blockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C51F51A11F000D683D /* Blockable.swift */; };
+		F41E5B1D1F51EA380071AAF0 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C91F51A14D000D683D /* Delegate.swift */; };
+		F41E5B1E1F51EA380071AAF0 /* Delegable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77CC1F51A163000D683D /* Delegable.swift */; };
+		F41E5B1F1F51EA380071AAF0 /* Forging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D11F51A1AB000D683D /* Forging.swift */; };
+		F41E5B201F51EA380071AAF0 /* Forgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D41F51A1D9000D683D /* Forgeable.swift */; };
+		F41E5B211F51EA390071AAF0 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77BB1F51A0C0000D683D /* Account.swift */; };
+		F41E5B221F51EA390071AAF0 /* Accountable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77BE1F51A0E0000D683D /* Accountable.swift */; };
+		F41E5B231F51EA390071AAF0 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C21F51A109000D683D /* Block.swift */; };
+		F41E5B241F51EA390071AAF0 /* Blockable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C51F51A11F000D683D /* Blockable.swift */; };
+		F41E5B251F51EA390071AAF0 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77C91F51A14D000D683D /* Delegate.swift */; };
+		F41E5B261F51EA390071AAF0 /* Delegable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77CC1F51A163000D683D /* Delegable.swift */; };
+		F41E5B271F51EA390071AAF0 /* Forging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D11F51A1AB000D683D /* Forging.swift */; };
+		F41E5B281F51EA390071AAF0 /* Forgeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D41F51A1D9000D683D /* Forgeable.swift */; };
+		F41E5B291F51EA3C0071AAF0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D81F51A1FC000D683D /* Network.swift */; };
+		F41E5B2A1F51EA3C0071AAF0 /* NetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44215141F51A93B00B2FD34 /* NetworkType.swift */; };
+		F41E5B2B1F51EA3D0071AAF0 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77D81F51A1FC000D683D /* Network.swift */; };
+		F41E5B2C1F51EA3D0071AAF0 /* NetworkType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44215141F51A93B00B2FD34 /* NetworkType.swift */; };
+		F41E5B2D1F51EA430071AAF0 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77DF1F51A245000D683D /* Peer.swift */; };
+		F41E5B2E1F51EA430071AAF0 /* Peerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E21F51A26A000D683D /* Peerable.swift */; };
+		F41E5B2F1F51EA430071AAF0 /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E61F51A2B6000D683D /* Port.swift */; };
+		F41E5B301F51EA430071AAF0 /* IPPortable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E91F51A305000D683D /* IPPortable.swift */; };
+		F41E5B311F51EA430071AAF0 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77ED1F51A356000D683D /* Price.swift */; };
+		F41E5B321F51EA430071AAF0 /* Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77F11F51A3B3000D683D /* Seed.swift */; };
+		F41E5B331F51EA430071AAF0 /* Seedable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77F41F51A3F0000D683D /* Seedable.swift */; };
+		F41E5B341F51EA430071AAF0 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4EB1F51A49A00F9FC44 /* Transaction.swift */; };
+		F41E5B351F51EA430071AAF0 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77DF1F51A245000D683D /* Peer.swift */; };
+		F41E5B361F51EA430071AAF0 /* Peerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E21F51A26A000D683D /* Peerable.swift */; };
+		F41E5B371F51EA430071AAF0 /* Port.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E61F51A2B6000D683D /* Port.swift */; };
+		F41E5B381F51EA430071AAF0 /* IPPortable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77E91F51A305000D683D /* IPPortable.swift */; };
+		F41E5B391F51EA430071AAF0 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77ED1F51A356000D683D /* Price.swift */; };
+		F41E5B3A1F51EA430071AAF0 /* Seed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77F11F51A3B3000D683D /* Seed.swift */; };
+		F41E5B3B1F51EA430071AAF0 /* Seedable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77F41F51A3F0000D683D /* Seedable.swift */; };
+		F41E5B3C1F51EA430071AAF0 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4EB1F51A49A00F9FC44 /* Transaction.swift */; };
+		F41E5B3D1F51EA480071AAF0 /* Transactionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4EE1F51A4B800F9FC44 /* Transactionable.swift */; };
+		F41E5B3E1F51EA480071AAF0 /* TransactionAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4F11F51A4DC00F9FC44 /* TransactionAsset.swift */; };
+		F41E5B3F1F51EA480071AAF0 /* TransactionAssetDelegable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4F41F51A50D00F9FC44 /* TransactionAssetDelegable.swift */; };
+		F41E5B401F51EA490071AAF0 /* Transactionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4EE1F51A4B800F9FC44 /* Transactionable.swift */; };
+		F41E5B411F51EA490071AAF0 /* TransactionAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4F11F51A4DC00F9FC44 /* TransactionAsset.swift */; };
+		F41E5B421F51EA490071AAF0 /* TransactionAssetDelegable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FFB4F41F51A50D00F9FC44 /* TransactionAssetDelegable.swift */; };
+		F41E5B431F51EA760071AAF0 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77DB1F51A213000D683D /* Networkable.swift */; };
+		F41E5B441F51EA760071AAF0 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C77DB1F51A213000D683D /* Networkable.swift */; };
+		F41E5B451F51EAA90071AAF0 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44215111F51A79F00B2FD34 /* Defaults.swift */; };
+		F41E5B461F51EAAA0071AAF0 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44215111F51A79F00B2FD34 /* Defaults.swift */; };
+		F41E5B4C1F5219BA0071AAF0 /* NFC.entitlements in Sources */ = {isa = PBXBuildFile; fileRef = F41E5B4B1F52199B0071AAF0 /* NFC.entitlements */; };
+		F41E5B4E1F521AD70071AAF0 /* NFC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41E5B4D1F521AD70071AAF0 /* NFC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F41E5A861F51E91B0071AAF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46C77971F519FC5000D683D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41E5A7B1F51E91A0071AAF0;
+			remoteInfo = "ARKKit-iOS";
+		};
+		F41E5AA21F51E92C0071AAF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46C77971F519FC5000D683D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F41E5A971F51E92B0071AAF0;
+			remoteInfo = "ARKKit-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F41E5A7C1F51E91A0071AAF0 /* ARKKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARKKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41E5A7E1F51E91A0071AAF0 /* ARKKit_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARKKit_iOS.h; sourceTree = "<group>"; };
+		F41E5A7F1F51E91A0071AAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41E5A841F51E91B0071AAF0 /* ARKKit-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKKit-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41E5A891F51E91B0071AAF0 /* ARKKit_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKKit_iOSTests.swift; sourceTree = "<group>"; };
+		F41E5A8B1F51E91B0071AAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41E5A981F51E92B0071AAF0 /* ARKKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARKKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41E5A9A1F51E92B0071AAF0 /* ARKKit_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARKKit_macOS.h; sourceTree = "<group>"; };
+		F41E5A9B1F51E92B0071AAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41E5AA01F51E92B0071AAF0 /* ARKKit-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKKit-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41E5AA51F51E92C0071AAF0 /* ARKKit_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKKit_macOSTests.swift; sourceTree = "<group>"; };
+		F41E5AA71F51E92C0071AAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F41E5B4B1F52199B0071AAF0 /* NFC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFC.entitlements; sourceTree = "<group>"; };
+		F41E5B4D1F521AD70071AAF0 /* NFC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFC.swift; sourceTree = "<group>"; };
+		F442150B1F51A70B00B2FD34 /* ARK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARK.swift; sourceTree = "<group>"; };
+		F442150E1F51A72E00B2FD34 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		F44215111F51A79F00B2FD34 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		F44215141F51A93B00B2FD34 /* NetworkType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkType.swift; sourceTree = "<group>"; };
+		F442158A1F51DAB600B2FD34 /* ARKKit_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKKit_Tests.swift; sourceTree = "<group>"; };
+		F46C77A31F519FC5000D683D /* ARKKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARKKit.h; sourceTree = "<group>"; };
+		F46C77A41F519FC5000D683D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46C77BB1F51A0C0000D683D /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		F46C77BE1F51A0E0000D683D /* Accountable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accountable.swift; sourceTree = "<group>"; };
+		F46C77C21F51A109000D683D /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		F46C77C51F51A11F000D683D /* Blockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blockable.swift; sourceTree = "<group>"; };
+		F46C77C91F51A14D000D683D /* Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
+		F46C77CC1F51A163000D683D /* Delegable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegable.swift; sourceTree = "<group>"; };
+		F46C77D11F51A1AB000D683D /* Forging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forging.swift; sourceTree = "<group>"; };
+		F46C77D41F51A1D9000D683D /* Forgeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forgeable.swift; sourceTree = "<group>"; };
+		F46C77D81F51A1FC000D683D /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F46C77DB1F51A213000D683D /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
+		F46C77DF1F51A245000D683D /* Peer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peer.swift; sourceTree = "<group>"; };
+		F46C77E21F51A26A000D683D /* Peerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peerable.swift; sourceTree = "<group>"; };
+		F46C77E61F51A2B6000D683D /* Port.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Port.swift; sourceTree = "<group>"; };
+		F46C77E91F51A305000D683D /* IPPortable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPPortable.swift; sourceTree = "<group>"; };
+		F46C77ED1F51A356000D683D /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		F46C77F11F51A3B3000D683D /* Seed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seed.swift; sourceTree = "<group>"; };
+		F46C77F41F51A3F0000D683D /* Seedable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seedable.swift; sourceTree = "<group>"; };
+		F4D9B95A1F521EB600072EF6 /* ARKKit-Banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARKKit-Banner.png"; sourceTree = "<group>"; };
+		F4D9B95B1F521ECF00072EF6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4D9B95C1F521F7A00072EF6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F4FFB4EB1F51A49A00F9FC44 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		F4FFB4EE1F51A4B800F9FC44 /* Transactionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactionable.swift; sourceTree = "<group>"; };
+		F4FFB4F11F51A4DC00F9FC44 /* TransactionAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAsset.swift; sourceTree = "<group>"; };
+		F4FFB4F41F51A50D00F9FC44 /* TransactionAssetDelegable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionAssetDelegable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F41E5A781F51E91A0071AAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41E5A811F51E91B0071AAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41E5A851F51E91B0071AAF0 /* ARKKit_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41E5A941F51E92B0071AAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41E5A9D1F51E92B0071AAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41E5AA11F51E92C0071AAF0 /* ARKKit_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F41E5A0A1F51DE120071AAF0 /* ARKKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F442158A1F51DAB600B2FD34 /* ARKKit_Tests.swift */,
+			);
+			path = ARKKit_Tests;
+			sourceTree = "<group>";
+		};
+		F41E5A7D1F51E91A0071AAF0 /* ARKKit-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F41E5A7E1F51E91A0071AAF0 /* ARKKit_iOS.h */,
+				F41E5A7F1F51E91A0071AAF0 /* Info.plist */,
+			);
+			path = "ARKKit-iOS";
+			sourceTree = "<group>";
+		};
+		F41E5A881F51E91B0071AAF0 /* ARKKit-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F41E5A891F51E91B0071AAF0 /* ARKKit_iOSTests.swift */,
+				F41E5A8B1F51E91B0071AAF0 /* Info.plist */,
+			);
+			path = "ARKKit-iOSTests";
+			sourceTree = "<group>";
+		};
+		F41E5A991F51E92B0071AAF0 /* ARKKit-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F41E5A9A1F51E92B0071AAF0 /* ARKKit_macOS.h */,
+				F41E5A9B1F51E92B0071AAF0 /* Info.plist */,
+			);
+			path = "ARKKit-macOS";
+			sourceTree = "<group>";
+		};
+		F41E5AA41F51E92C0071AAF0 /* ARKKit-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F41E5AA51F51E92C0071AAF0 /* ARKKit_macOSTests.swift */,
+				F41E5AA71F51E92C0071AAF0 /* Info.plist */,
+			);
+			path = "ARKKit-macOSTests";
+			sourceTree = "<group>";
+		};
+		F442150A1F51A6DF00B2FD34 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				F442150B1F51A70B00B2FD34 /* ARK.swift */,
+				F442150E1F51A72E00B2FD34 /* API.swift */,
+				F44215111F51A79F00B2FD34 /* Defaults.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		F46C77961F519FC5000D683D = {
+			isa = PBXGroup;
+			children = (
+				F46C77A21F519FC5000D683D /* ARKKit */,
+				F41E5A7D1F51E91A0071AAF0 /* ARKKit-iOS */,
+				F41E5A881F51E91B0071AAF0 /* ARKKit-iOSTests */,
+				F41E5A991F51E92B0071AAF0 /* ARKKit-macOS */,
+				F41E5AA41F51E92C0071AAF0 /* ARKKit-macOSTests */,
+				F41E5A0A1F51DE120071AAF0 /* ARKKit_Tests */,
+				F46C77A11F519FC5000D683D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F46C77A11F519FC5000D683D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F41E5A7C1F51E91A0071AAF0 /* ARKKit_iOS.framework */,
+				F41E5A841F51E91B0071AAF0 /* ARKKit-iOSTests.xctest */,
+				F41E5A981F51E92B0071AAF0 /* ARKKit_macOS.framework */,
+				F41E5AA01F51E92B0071AAF0 /* ARKKit-macOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46C77A21F519FC5000D683D /* ARKKit */ = {
+			isa = PBXGroup;
+			children = (
+				F442150A1F51A6DF00B2FD34 /* services */,
+				F4FFB4F71F51A52700F9FC44 /* hardware */,
+				F46C77B81F51A077000D683D /* models */,
+				F4D9B95A1F521EB600072EF6 /* ARKKit-Banner.png */,
+				F4D9B95B1F521ECF00072EF6 /* README.md */,
+				F4D9B95C1F521F7A00072EF6 /* LICENSE */,
+				F46C77A31F519FC5000D683D /* ARKKit.h */,
+				F46C77A41F519FC5000D683D /* Info.plist */,
+			);
+			path = ARKKit;
+			sourceTree = "<group>";
+		};
+		F46C77B81F51A077000D683D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				F46C77BA1F51A0AE000D683D /* Account */,
+				F46C77C11F51A102000D683D /* Block */,
+				F46C77C81F51A143000D683D /* Delegate */,
+				F46C77D01F51A1A2000D683D /* Forging */,
+				F46C77D71F51A1F0000D683D /* Network */,
+				F46C77DE1F51A23D000D683D /* Peer */,
+				F46C77E51F51A2AA000D683D /* Port */,
+				F46C77EC1F51A348000D683D /* Price */,
+				F46C77F01F51A3A4000D683D /* Seed */,
+				F4FFB4EA1F51A47F00F9FC44 /* Transaction */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		F46C77BA1F51A0AE000D683D /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F46C77BB1F51A0C0000D683D /* Account.swift */,
+				F46C77BE1F51A0E0000D683D /* Accountable.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		F46C77C11F51A102000D683D /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				F46C77C21F51A109000D683D /* Block.swift */,
+				F46C77C51F51A11F000D683D /* Blockable.swift */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		F46C77C81F51A143000D683D /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				F46C77C91F51A14D000D683D /* Delegate.swift */,
+				F46C77CC1F51A163000D683D /* Delegable.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		F46C77D01F51A1A2000D683D /* Forging */ = {
+			isa = PBXGroup;
+			children = (
+				F46C77D11F51A1AB000D683D /* Forging.swift */,
+				F46C77D41F51A1D9000D683D /* Forgeable.swift */,
+			);
+			path = Forging;
+			sourceTree = "<group>";
+		};
+		F46C77D71F51A1F0000D683D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F46C77D81F51A1FC000D683D /* Network.swift */,
+				F46C77DB1F51A213000D683D /* Networkable.swift */,
+				F44215141F51A93B00B2FD34 /* NetworkType.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F46C77DE1F51A23D000D683D /* Peer */ = {
+			isa = PBXGroup;
+			children = (
+				F46C77DF1F51A245000D683D /* Peer.swift */,
+				F46C77E21F51A26A000D683D /* Peerable.swift */,
+			);
+			path = Peer;
+			sourceTree = "<group>";
+		};
+		F46C77E51F51A2AA000D683D /* Port */ = {
+			isa = PBXGroup;
+			children = (
+				F46C77E61F51A2B6000D683D /* Port.swift */,
+				F46C77E91F51A305000D683D /* IPPortable.swift */,
+			);
+			path = Port;
+			sourceTree = "<group>";
+		};
+		F46C77EC1F51A348000D683D /* Price */ = {
+			isa = PBXGroup;
+			children = (
+				F46C77ED1F51A356000D683D /* Price.swift */,
+			);
+			path = Price;
+			sourceTree = "<group>";
+		};
+		F46C77F01F51A3A4000D683D /* Seed */ = {
+			isa = PBXGroup;
+			children = (
+				F46C77F11F51A3B3000D683D /* Seed.swift */,
+				F46C77F41F51A3F0000D683D /* Seedable.swift */,
+			);
+			path = Seed;
+			sourceTree = "<group>";
+		};
+		F4FFB4EA1F51A47F00F9FC44 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFB4EB1F51A49A00F9FC44 /* Transaction.swift */,
+				F4FFB4EE1F51A4B800F9FC44 /* Transactionable.swift */,
+				F4FFB4F11F51A4DC00F9FC44 /* TransactionAsset.swift */,
+				F4FFB4F41F51A50D00F9FC44 /* TransactionAssetDelegable.swift */,
+			);
+			path = Transaction;
+			sourceTree = "<group>";
+		};
+		F4FFB4F71F51A52700F9FC44 /* hardware */ = {
+			isa = PBXGroup;
+			children = (
+				F4FFB4F81F51A52D00F9FC44 /* NFC */,
+			);
+			path = hardware;
+			sourceTree = "<group>";
+		};
+		F4FFB4F81F51A52D00F9FC44 /* NFC */ = {
+			isa = PBXGroup;
+			children = (
+				F41E5B4B1F52199B0071AAF0 /* NFC.entitlements */,
+				F41E5B4D1F521AD70071AAF0 /* NFC.swift */,
+			);
+			path = NFC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F41E5A791F51E91A0071AAF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41E5A8C1F51E91B0071AAF0 /* ARKKit_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41E5A951F51E92B0071AAF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41E5AA81F51E92C0071AAF0 /* ARKKit_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F41E5A7B1F51E91A0071AAF0 /* ARKKit-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41E5A911F51E91B0071AAF0 /* Build configuration list for PBXNativeTarget "ARKKit-iOS" */;
+			buildPhases = (
+				F41E5A771F51E91A0071AAF0 /* Sources */,
+				F41E5A781F51E91A0071AAF0 /* Frameworks */,
+				F41E5A791F51E91A0071AAF0 /* Headers */,
+				F41E5A7A1F51E91A0071AAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKKit-iOS";
+			productName = "ARKKit-iOS";
+			productReference = F41E5A7C1F51E91A0071AAF0 /* ARKKit_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F41E5A831F51E91B0071AAF0 /* ARKKit-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41E5A921F51E91B0071AAF0 /* Build configuration list for PBXNativeTarget "ARKKit-iOSTests" */;
+			buildPhases = (
+				F41E5A801F51E91B0071AAF0 /* Sources */,
+				F41E5A811F51E91B0071AAF0 /* Frameworks */,
+				F41E5A821F51E91B0071AAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41E5A871F51E91B0071AAF0 /* PBXTargetDependency */,
+			);
+			name = "ARKKit-iOSTests";
+			productName = "ARKKit-iOSTests";
+			productReference = F41E5A841F51E91B0071AAF0 /* ARKKit-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F41E5A971F51E92B0071AAF0 /* ARKKit-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41E5AA91F51E92C0071AAF0 /* Build configuration list for PBXNativeTarget "ARKKit-macOS" */;
+			buildPhases = (
+				F41E5A931F51E92B0071AAF0 /* Sources */,
+				F41E5A941F51E92B0071AAF0 /* Frameworks */,
+				F41E5A951F51E92B0071AAF0 /* Headers */,
+				F41E5A961F51E92B0071AAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKKit-macOS";
+			productName = "ARKKit-macOS";
+			productReference = F41E5A981F51E92B0071AAF0 /* ARKKit_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F41E5A9F1F51E92B0071AAF0 /* ARKKit-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F41E5AAC1F51E92C0071AAF0 /* Build configuration list for PBXNativeTarget "ARKKit-macOSTests" */;
+			buildPhases = (
+				F41E5A9C1F51E92B0071AAF0 /* Sources */,
+				F41E5A9D1F51E92B0071AAF0 /* Frameworks */,
+				F41E5A9E1F51E92B0071AAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F41E5AA31F51E92C0071AAF0 /* PBXTargetDependency */,
+			);
+			name = "ARKKit-macOSTests";
+			productName = "ARKKit-macOSTests";
+			productReference = F41E5AA01F51E92B0071AAF0 /* ARKKit-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46C77971F519FC5000D683D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = sleepdefic1t;
+				TargetAttributes = {
+					F41E5A7B1F51E91A0071AAF0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F41E5A831F51E91B0071AAF0 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					F41E5A971F51E92B0071AAF0 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					F41E5A9F1F51E92B0071AAF0 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = F46C779A1F519FC5000D683D /* Build configuration list for PBXProject "ARKKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F46C77961F519FC5000D683D;
+			productRefGroup = F46C77A11F519FC5000D683D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F41E5A7B1F51E91A0071AAF0 /* ARKKit-iOS */,
+				F41E5A831F51E91B0071AAF0 /* ARKKit-iOSTests */,
+				F41E5A971F51E92B0071AAF0 /* ARKKit-macOS */,
+				F41E5A9F1F51E92B0071AAF0 /* ARKKit-macOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F41E5A7A1F51E91A0071AAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41E5A821F51E91B0071AAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41E5A961F51E92B0071AAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41E5A9E1F51E92B0071AAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F41E5A771F51E91A0071AAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41E5B4C1F5219BA0071AAF0 /* NFC.entitlements in Sources */,
+				F41E5AC61F51E9730071AAF0 /* Transaction.swift in Sources */,
+				F41E5AC31F51E9730071AAF0 /* Price.swift in Sources */,
+				F41E5AB31F51E9730071AAF0 /* Defaults.swift in Sources */,
+				F41E5AC51F51E9730071AAF0 /* Seedable.swift in Sources */,
+				F41E5B4E1F521AD70071AAF0 /* NFC.swift in Sources */,
+				F41E5AB41F51E9730071AAF0 /* Account.swift in Sources */,
+				F41E5ABC1F51E9730071AAF0 /* Network.swift in Sources */,
+				F41E5ABD1F51E9730071AAF0 /* Networkable.swift in Sources */,
+				F41E5AC81F51E9730071AAF0 /* TransactionAsset.swift in Sources */,
+				F41E5ABE1F51E9730071AAF0 /* NetworkType.swift in Sources */,
+				F41E5ABA1F51E9730071AAF0 /* Forging.swift in Sources */,
+				F41E5AB21F51E9730071AAF0 /* API.swift in Sources */,
+				F41E5AC71F51E9730071AAF0 /* Transactionable.swift in Sources */,
+				F41E5AC21F51E9730071AAF0 /* IPPortable.swift in Sources */,
+				F41E5AB71F51E9730071AAF0 /* Blockable.swift in Sources */,
+				F41E5AB81F51E9730071AAF0 /* Delegate.swift in Sources */,
+				F41E5AC01F51E9730071AAF0 /* Peerable.swift in Sources */,
+				F41E5ABF1F51E9730071AAF0 /* Peer.swift in Sources */,
+				F41E5AB61F51E9730071AAF0 /* Block.swift in Sources */,
+				F41E5AB11F51E9730071AAF0 /* ARK.swift in Sources */,
+				F41E5AB51F51E9730071AAF0 /* Accountable.swift in Sources */,
+				F41E5AB91F51E9730071AAF0 /* Delegable.swift in Sources */,
+				F41E5ABB1F51E9730071AAF0 /* Forgeable.swift in Sources */,
+				F41E5AC41F51E9730071AAF0 /* Seed.swift in Sources */,
+				F41E5AC91F51E9730071AAF0 /* TransactionAssetDelegable.swift in Sources */,
+				F41E5AC11F51E9730071AAF0 /* Port.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41E5A801F51E91B0071AAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41E5B451F51EAA90071AAF0 /* Defaults.swift in Sources */,
+				F41E5B341F51EA430071AAF0 /* Transaction.swift in Sources */,
+				F41E5B311F51EA430071AAF0 /* Price.swift in Sources */,
+				F41E5B2B1F51EA3D0071AAF0 /* Network.swift in Sources */,
+				F41E5B331F51EA430071AAF0 /* Seedable.swift in Sources */,
+				F41E5B211F51EA390071AAF0 /* Account.swift in Sources */,
+				F41E5B261F51EA390071AAF0 /* Delegable.swift in Sources */,
+				F41E5B241F51EA390071AAF0 /* Blockable.swift in Sources */,
+				F41E5B3E1F51EA480071AAF0 /* TransactionAsset.swift in Sources */,
+				F41E5B2C1F51EA3D0071AAF0 /* NetworkType.swift in Sources */,
+				F41E5B231F51EA390071AAF0 /* Block.swift in Sources */,
+				F41E5B251F51EA390071AAF0 /* Delegate.swift in Sources */,
+				F41E5B3D1F51EA480071AAF0 /* Transactionable.swift in Sources */,
+				F41E5B301F51EA430071AAF0 /* IPPortable.swift in Sources */,
+				F41E5B221F51EA390071AAF0 /* Accountable.swift in Sources */,
+				F41E5B271F51EA390071AAF0 /* Forging.swift in Sources */,
+				F41E5B2E1F51EA430071AAF0 /* Peerable.swift in Sources */,
+				F41E5B431F51EA760071AAF0 /* Networkable.swift in Sources */,
+				F41E5B2D1F51EA430071AAF0 /* Peer.swift in Sources */,
+				F41E5B151F51E99E0071AAF0 /* ARK.swift in Sources */,
+				F41E5A8A1F51E91B0071AAF0 /* ARKKit_iOSTests.swift in Sources */,
+				F41E5B281F51EA390071AAF0 /* Forgeable.swift in Sources */,
+				F41E5B171F51EA300071AAF0 /* API.swift in Sources */,
+				F41E5AAF1F51E9460071AAF0 /* ARKKit_Tests.swift in Sources */,
+				F41E5B321F51EA430071AAF0 /* Seed.swift in Sources */,
+				F41E5B3F1F51EA480071AAF0 /* TransactionAssetDelegable.swift in Sources */,
+				F41E5B2F1F51EA430071AAF0 /* Port.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41E5A931F51E92B0071AAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41E5AF81F51E9750071AAF0 /* Transaction.swift in Sources */,
+				F41E5AF51F51E9750071AAF0 /* Price.swift in Sources */,
+				F41E5AE51F51E9750071AAF0 /* Defaults.swift in Sources */,
+				F41E5AF71F51E9750071AAF0 /* Seedable.swift in Sources */,
+				F41E5AE61F51E9750071AAF0 /* Account.swift in Sources */,
+				F41E5AEE1F51E9750071AAF0 /* Network.swift in Sources */,
+				F41E5AEF1F51E9750071AAF0 /* Networkable.swift in Sources */,
+				F41E5AFA1F51E9750071AAF0 /* TransactionAsset.swift in Sources */,
+				F41E5AF01F51E9750071AAF0 /* NetworkType.swift in Sources */,
+				F41E5AEC1F51E9750071AAF0 /* Forging.swift in Sources */,
+				F41E5AE41F51E9750071AAF0 /* API.swift in Sources */,
+				F41E5AF91F51E9750071AAF0 /* Transactionable.swift in Sources */,
+				F41E5AF41F51E9750071AAF0 /* IPPortable.swift in Sources */,
+				F41E5AE91F51E9750071AAF0 /* Blockable.swift in Sources */,
+				F41E5AEA1F51E9750071AAF0 /* Delegate.swift in Sources */,
+				F41E5AF21F51E9750071AAF0 /* Peerable.swift in Sources */,
+				F41E5AF11F51E9750071AAF0 /* Peer.swift in Sources */,
+				F41E5AE81F51E9750071AAF0 /* Block.swift in Sources */,
+				F41E5AE31F51E9750071AAF0 /* ARK.swift in Sources */,
+				F41E5AE71F51E9750071AAF0 /* Accountable.swift in Sources */,
+				F41E5AEB1F51E9750071AAF0 /* Delegable.swift in Sources */,
+				F41E5AED1F51E9750071AAF0 /* Forgeable.swift in Sources */,
+				F41E5AF61F51E9750071AAF0 /* Seed.swift in Sources */,
+				F41E5AFB1F51E9750071AAF0 /* TransactionAssetDelegable.swift in Sources */,
+				F41E5AF31F51E9750071AAF0 /* Port.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41E5A9C1F51E92B0071AAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41E5B461F51EAAA0071AAF0 /* Defaults.swift in Sources */,
+				F41E5B3C1F51EA430071AAF0 /* Transaction.swift in Sources */,
+				F41E5B391F51EA430071AAF0 /* Price.swift in Sources */,
+				F41E5B291F51EA3C0071AAF0 /* Network.swift in Sources */,
+				F41E5B3B1F51EA430071AAF0 /* Seedable.swift in Sources */,
+				F41E5B191F51EA380071AAF0 /* Account.swift in Sources */,
+				F41E5B1E1F51EA380071AAF0 /* Delegable.swift in Sources */,
+				F41E5B1C1F51EA380071AAF0 /* Blockable.swift in Sources */,
+				F41E5B411F51EA490071AAF0 /* TransactionAsset.swift in Sources */,
+				F41E5B2A1F51EA3C0071AAF0 /* NetworkType.swift in Sources */,
+				F41E5B1B1F51EA380071AAF0 /* Block.swift in Sources */,
+				F41E5B1D1F51EA380071AAF0 /* Delegate.swift in Sources */,
+				F41E5B401F51EA490071AAF0 /* Transactionable.swift in Sources */,
+				F41E5B381F51EA430071AAF0 /* IPPortable.swift in Sources */,
+				F41E5B1A1F51EA380071AAF0 /* Accountable.swift in Sources */,
+				F41E5B1F1F51EA380071AAF0 /* Forging.swift in Sources */,
+				F41E5B361F51EA430071AAF0 /* Peerable.swift in Sources */,
+				F41E5B441F51EA760071AAF0 /* Networkable.swift in Sources */,
+				F41E5B351F51EA430071AAF0 /* Peer.swift in Sources */,
+				F41E5B161F51E99E0071AAF0 /* ARK.swift in Sources */,
+				F41E5AA61F51E92C0071AAF0 /* ARKKit_macOSTests.swift in Sources */,
+				F41E5B201F51EA380071AAF0 /* Forgeable.swift in Sources */,
+				F41E5B181F51EA300071AAF0 /* API.swift in Sources */,
+				F41E5AB01F51E9470071AAF0 /* ARKKit_Tests.swift in Sources */,
+				F41E5B3A1F51EA430071AAF0 /* Seed.swift in Sources */,
+				F41E5B421F51EA490071AAF0 /* TransactionAssetDelegable.swift in Sources */,
+				F41E5B371F51EA430071AAF0 /* Port.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F41E5A871F51E91B0071AAF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F41E5A7B1F51E91A0071AAF0 /* ARKKit-iOS */;
+			targetProxy = F41E5A861F51E91B0071AAF0 /* PBXContainerItemProxy */;
+		};
+		F41E5AA31F51E92C0071AAF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F41E5A971F51E92B0071AAF0 /* ARKKit-macOS */;
+			targetProxy = F41E5AA21F51E92C0071AAF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F41E5A8D1F51E91B0071AAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "ARKKit-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.sleepdeficit.ARKKit-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F41E5A8E1F51E91B0071AAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "ARKKit-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.sleepdeficit.ARKKit-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F41E5A8F1F51E91B0071AAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = "ARKKit-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.sleepdeficit.ARKKit-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F41E5A901F51E91B0071AAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = "ARKKit-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.sleepdeficit.ARKKit-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F41E5AAA1F51E92C0071AAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "ARKKit-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.sleepdeficit.ARKKit-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F41E5AAB1F51E92C0071AAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "ARKKit-macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.sleepdeficit.ARKKit-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		F41E5AAD1F51E92C0071AAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = "ARKKit-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.sleepdeficit.ARKKit-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F41E5AAE1F51E92C0071AAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PX2V2LNF9X;
+				INFOPLIST_FILE = "ARKKit-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.sleepdeficit.ARKKit-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		F46C77A61F519FC5000D683D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F46C77A71F519FC5000D683D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F41E5A911F51E91B0071AAF0 /* Build configuration list for PBXNativeTarget "ARKKit-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41E5A8D1F51E91B0071AAF0 /* Debug */,
+				F41E5A8E1F51E91B0071AAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41E5A921F51E91B0071AAF0 /* Build configuration list for PBXNativeTarget "ARKKit-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41E5A8F1F51E91B0071AAF0 /* Debug */,
+				F41E5A901F51E91B0071AAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41E5AA91F51E92C0071AAF0 /* Build configuration list for PBXNativeTarget "ARKKit-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41E5AAA1F51E92C0071AAF0 /* Debug */,
+				F41E5AAB1F51E92C0071AAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F41E5AAC1F51E92C0071AAF0 /* Build configuration list for PBXNativeTarget "ARKKit-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F41E5AAD1F51E92C0071AAF0 /* Debug */,
+				F41E5AAE1F51E92C0071AAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46C779A1F519FC5000D683D /* Build configuration list for PBXProject "ARKKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46C77A61F519FC5000D683D /* Debug */,
+				F46C77A71F519FC5000D683D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46C77971F519FC5000D683D /* Project object */;
+}
