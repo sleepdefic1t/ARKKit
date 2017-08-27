@@ -1,15 +1,33 @@
 # <img src="https://github.com/sleepdefic1t/ARKKit/blob/master/ARKKit-Banner.png" alt="ARKKit" style="width=65%;">
 a  macOS  &  iOS  Swift  Framework  for  [Ark.io](https://ark.io).
 
-[![Swift Version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://min-api.cryptocompare.com/data/price?fsym=ARK&tsyms=USD,BTC,EUR)
-[![Xcode Version](https://img.shields.io/badge/xcode-9.0b5-52B3D9.svg?style=flat)](https://developer.apple.com/xcode/)
-[![BUILD](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)](https://github.com/sleepdefic1t)
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/license-CC%20BY--SA%204.0-BE90D4.svg?style=flat)](http://creativecommons.org/licenses/by-sa/4.0/)
+[![Swift Version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/) 
+![Platform](https://img.shields.io/badge/iOS->=11-52B3D9.svg?style=flat) 
+![Platform](https://img.shields.io/badge/macOS->=10.12.0-52B3D9.svg?style=flat) 
+[![Xcode Version](https://img.shields.io/badge/xcode-9.0b5-52B3D9.svg?style=flat)](https://developer.apple.com/xcode/)  
 
-![Platform](https://img.shields.io/badge/iOS-85%25-green.svg?style=flat)
-![Platform](https://img.shields.io/badge/macOS:-85%25-green.svg?style=flat)
-![Platform](https://img.shields.io/badge/Total%20Complete-85%25-green.svg?style=flat)
+[![BUILD](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)](https://github.com/sleepdefic1t) 
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/license-CC%20BY--SA%204.0-BE90D4.svg?style=flat)](http://creativecommons.org/licenses/by-sa/4.0/)  
 
+![Platform](https://img.shields.io/badge/iOS-85%25-green.svg?style=flat) 
+![Platform](https://img.shields.io/badge/macOS:-85%25-green.svg?style=flat) 
+![Platform](https://img.shields.io/badge/Total%20Complete-85%25-green.svg?style=flat)  
+ 
+
+# What is ARKKit?
+  ARKKit is wrapper for interacting with the [***Ark Ecosystem***](https://ark.io).
+  It is written purely in Swift 4.0, using no external dependencies or libraries.
+  This allows quick and easy integration into your Computer, Server, or iDevice project!
+
+# Todo:
+
+- [ ] Signature/Cryptographic Integration
+- [ ] Transaction Creation & Signing
+- [ ] Voting
+- [ ] Delegate Registration
+- [ ] TBA*
+- [ ] TBA*
+- [ ] Your suggestions!
 
 
 # Usage
@@ -21,7 +39,7 @@ samples:
 Check an account on mainnet or devnet:
 ```swift
   let devAccount = ARK.dev.account(from: "DHQ4Fjsyiop3qBR4otAjAu6cBHkgRELqGA")  
-  let mainAccount = ARK.dev.account(from: "AZreeHxX23s4jttL3ML8n6A2aLrwHPfVGZ")  
+  let mainAccount = ARK.main.account(from: "AZreeHxX23s4jttL3ML8n6A2aLrwHPfVGZ")  
 ```
 returning:
 ```
@@ -162,23 +180,33 @@ allTransactions = [
 
 or get the total number of transactions on a given network:
 ```swift
-  let totalTransactions = ARK.main.totalNumberOfTransactions()  */ returned "137761" */
+  let totalTransactions = ARK.main.totalNumberOfTransactions()  /* returned "137761" */
 ```  
   
 
 
 # Recommended Resources
 
-# Todo:
+## More Ѧrk Developer-Language Integrations:  
 
-- [ ] Signature/Cryptographic Integration
-- [ ] Transaction Creation & Signing
-- [ ] Voting
-- [ ] Delegate Registration
-- [ ] TBA*
-- [ ] TBA*
-- [ ] TBA*
-- [ ] Your suggestions!
+- **Go**  
+    - [**ark-go**](https://github.com/ArkEcosystem/ark-go): https://github.com/ArkEcosystem/ark-go  
+- **Java**
+    - [**ark-java**](https://github.com/ArkEcosystem/ark-java): https://github.com/ArkEcosystem/ark-java  
+- **JavaScript**
+    - [**ark-js**](https://github.com/ArkEcosystem/ark-js): https://github.com/ArkEcosystem/ark-js  
+- **Laravel**
+    - [**Laravel-Ark**](https://github.com/faustbrian/Laravel-Ark): https://github.com/faustbrian/Laravel-Ark  
+- **.Net**
+    - [**ark-net**](https://github.com/ArkEcosystem/ark-net): https://github.com/ArkEcosystem/ark-net  
+- **PHP**
+    - [**Ark-PHP-Client**](https://github.com/faustbrian/Ark-PHP-Client): https://github.com/faustbrian/Ark-PHP-Client  
+- **Python**
+    - [**Arky**](https://github.com/ArkEcosystem/arky): https://github.com/ArkEcosystem/arky  
+- **Ruby**
+    - [**Ark-Ruby**](https://github.com/faustbrian/Ark-Ruby): https://github.com/faustbrian/Ark-Ruby  
+- **TypeScript**
+    - [**ark-ts**](https://github.com/ArkEcosystem/ark-ts): https://github.com/ArkEcosystem/ark-ts  
 
 
 #### Tip Jar
