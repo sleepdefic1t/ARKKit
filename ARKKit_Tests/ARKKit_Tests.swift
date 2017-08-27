@@ -32,16 +32,16 @@ class ARKKit_Tests: XCTestCase {
     }
     
     
-        func testAccount() {
-            print("\n **************************************************")
-            print(" ****************** testAccount ******************* \n")
-    
-            let existingAccount = Account.with(address: "DHQ4Fjsyiop3qBR4otAjAu6cBHkgRELqGA", on: .dev)
-                print("\n existingAccount = \(existingAccount) \n")
-    
-            print("\n ******************** /account ********************")
-            print(" ************************************************** \n \n")
-        }
+//        func testAccount() {
+//            print("\n **************************************************")
+//            print(" ****************** testAccount ******************* \n")
+//
+//            let existingAccount = Account.with(address: "DHQ4Fjsyiop3qBR4otAjAu6cBHkgRELqGA", on: .dev)
+//                print("\n existingAccount = \(existingAccount) \n")
+//
+//            print("\n ******************** /account ********************")
+//            print(" ************************************************** \n \n")
+//        }
     
     
     
@@ -118,19 +118,19 @@ class ARKKit_Tests: XCTestCase {
     //    }
     
     
-    //    func testPeer() {
-    //        print("\n **************************************************")
-    //        print(" ******************** testPeer ******************** \n")
-    //
-    //        let allPeers = Peer.all(on: .dev)
-    //            print("\n allPeers = \(allPeers) \n")
-    //
-    //        let statusOfIP = Peer.status(of: "35.188.148.247", on: .dev)
-    //            print("\n statusOfIP = \(statusOfIP) \n")
-    //
-    //        print("\n ********************* /peer **********************")
-    //        print(" ************************************************** \n \n")
-    //    }
+//        func testPeer() {
+//            print("\n **************************************************")
+//            print(" ******************** testPeer ******************** \n")
+//
+//            let allPeers = Peer.all(on: .dev)
+//                print("\n allPeers = \(allPeers) \n")
+//
+//            let statusOfIP = Peer.status(of: "35.188.148.247", on: .dev)
+//                print("\n statusOfIP = \(statusOfIP) \n")
+//
+//            print("\n ********************* /peer **********************")
+//            print(" ************************************************** \n \n")
+//        }
     
     
     //    func testPort() {
@@ -166,44 +166,44 @@ class ARKKit_Tests: XCTestCase {
     //        print(" ************************************************** \n \n")
     //    }
     
-    //    func testSeed() {
-    //        print("\n **************************************************")
-    //        print(" ******************** testSeed ******************* \n")
-    //
-    //        let hash = Seed.hash(from: .dev)
-    //            print("\n hash = \(hash) \n")
-    //
-    //        let peers = Seed.peers(from: .dev)
-    //            print("\n peers = \(peers) \n")
-    //
-    //        let peersOfIP = Seed.peers(of: "35.188.148.247", on: .dev)
-    //            print("\n peersOfIP = \(peersOfIP) \n")
-    //
-    //        let allSeeds = Seed.allSeeds(from: .dev)
-    //            print("\n allSeeds = \(allSeeds) \n")
-    //
-    //        let seeds = Seed.from(.dev)
-    //            print("\n seeds = \(seeds) \n")
-    //
-    //
-    //        print("\n ********************* /seed **********************")
-    //        print(" ************************************************** \n \n")
-    //    }
+//        func testSeed() {
+//            print("\n **************************************************")
+//            print(" ******************** testSeed ******************* \n")
+//
+//            let hash = Seed.hash(from: .dev)
+//                print("\n hash = \(hash) \n")
+//
+//            let peers = Seed.seeds(from: .dev)
+//                print("\n peers = \(peers) \n")
+//
+//            let peersOfIP = Seed.peers(of: "35.188.148.247", on: .dev)
+//                print("\n peersOfIP = \(peersOfIP) \n")
+//
+//            let allSeeds = Seed.allSeeds(from: .dev)
+//                print("\n allSeeds = \(allSeeds) \n")
+//
+//            let seeds = Seed.from(.dev)
+//                print("\n seeds = \(seeds) \n")
+//
+//
+//            print("\n ********************* /seed **********************")
+//            print(" ************************************************** \n \n")
+//        }
     
     
-    //    func testTransaction() {
-    //        print("\n **************************************************")
-    //        print(" ***************** testTransaction **************** \n")
-    //
-    //        let allTransactions = Transaction.all(on: .dev)
-    //            print("\n allTransactions = \(allTransactions) \n")
-    //
-    //        let totalNumberOfTransactions = Transaction.totalNumberOfTransactions(on: .dev)
-    //            print("\n totalNumberOfTransactions = \(totalNumberOfTransactions) \n")
-    //
-    //        print("\n ****************** /transaction ******************")
-    //        print(" ************************************************** \n \n")
-    //    }
+        func testTransaction() {
+            print("\n **************************************************")
+            print(" ***************** testTransaction **************** \n")
+    
+//            let allTransactions = Transaction.all(on: .dev)
+//                print("\n allTransactions = \(allTransactions) \n")
+    
+            let totalNumberOfTransactions = Transaction.totalNumberOfTransactions(on: .main)
+                print("\n totalNumberOfTransactions = \(totalNumberOfTransactions) \n")
+    
+            print("\n ****************** /transaction ******************")
+            print(" ************************************************** \n \n")
+        }
 
 
     func testPerformanceExample() {

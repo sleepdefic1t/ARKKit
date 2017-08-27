@@ -175,7 +175,7 @@
 		F46C77ED1F51A356000D683D /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 		F46C77F11F51A3B3000D683D /* Seed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seed.swift; sourceTree = "<group>"; };
 		F46C77F41F51A3F0000D683D /* Seedable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seedable.swift; sourceTree = "<group>"; };
-		F4D9B95A1F521EB600072EF6 /* ARKKit-Banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARKKit-Banner.png"; sourceTree = "<group>"; };
+		F4D9B95A1F521EB600072EF6 /* ARKKit-Banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ARKKit-Banner.png"; path = "../ARKKit-Banner.png"; sourceTree = "<group>"; };
 		F4D9B95B1F521ECF00072EF6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4D9B95C1F521F7A00072EF6 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F4FFB4EB1F51A49A00F9FC44 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
