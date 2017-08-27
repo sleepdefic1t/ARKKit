@@ -15,9 +15,9 @@ a  macOS  &  iOS  Swift  Framework  for  [Ark.io](https://ark.io).
  
 
 # What is ARKKit?
-  ARKKit is wrapper for interacting with the [***Ark Ecosystem***](https://ark.io).
-  It is written purely in Swift 4.0, using no external dependencies or libraries.
-  This allows quick and easy integration into your Computer, Server, or iDevice project!
+  ARKKit is wrapper for interacting with the [***Ark Ecosystem***](https://ark.io).  
+  It is written purely in Swift 4.0, using no external dependencies or libraries.  
+  This allows for a quick, easy, and dependecy-free integration into your Computer, Server, or iDevice project!
 
 # Todo:
 
@@ -33,8 +33,6 @@ a  macOS  &  iOS  Swift  Framework  for  [Ark.io](https://ark.io).
 # Usage
 
 samples:  
-
-##
 
 Check an account on mainnet or devnet:
 ```swift
