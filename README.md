@@ -3,7 +3,7 @@ a  macOS  &  iOS  Swift  Framework  for  [Ark.io](https://ark.io).
 
 [![ARKKit Version](https://img.shields.io/badge/ARKKit-0.1.0-orange.svg?style=flat)](https://sleepdefic1t.github.io/ARKKit/) 
 [![BUILD](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)](https://github.com/sleepdefic1t) 
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/license-CC%20BY--SA%204.0-BE90D4.svg?style=flat)](http://creativecommons.org/licenses/by-sa/4.0/) 
+[![License: MIT](https://img.shields.io/badge/license-MIT-BE90D4.svg?style=flat)](http://creativecommons.org/licenses/by-sa/4.0/) 
 
 [![Swift Version](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/) 
 ![Platform](https://img.shields.io/badge/iOS->=11-52B3D9.svg?style=flat) 
@@ -15,16 +15,18 @@ a  macOS  &  iOS  Swift  Framework  for  [Ark.io](https://ark.io).
 ![Platform](https://img.shields.io/badge/iOS-85%25-green.svg?style=flat) 
 ![Platform](https://img.shields.io/badge/macOS:-85%25-green.svg?style=flat) 
 ![Platform](https://img.shields.io/badge/Total%20Complete-85%25-green.svg?style=flat)  
- 
 
 # What is ARKKit?
   ARKKit is wrapper for interacting with the [***Ark Ecosystem***](https://ark.io).  
   It is written purely in Swift 4.0, using no external dependencies or libraries.  
   This allows for a quick, easy, and dependecy-free integration into your Computer, Server, or iDevice project!
 
-#### Blog Posts
-- ARK-SWIFT Interface — For Easy iOS Integration With The ARK Blockchain. by T. Walker
-  -  [**blog.ark.io**](https://blog.ark.io/ark-swift-interface-for-easy-ios-integration-with-the-ark-blockchain-ae96bceda3fc) || [**Steemit**](https://steemit.com/ios/@arkecosystem/ark-swift-interface-for-easy-ios-integration-with-the-ark-blockchain)
+## Articles
+
+- [**"ARK-SWIFT Interface — For Easy iOS Integration With The ARK Blockchain"**](https://blog.ark.io/ark-swift-interface-for-easy-ios-integration-with-the-ark-blockchain-ae96bceda3fc) || [**Steemit**](https://steemit.com/ios/@arkecosystem/ark-swift-interface-for-easy-ios-integration-with-the-ark-blockchain) (travis w.)  
+
+- [**1st Place: "August 2017: GitHub Development Winners"**](https://blog.ark.io/august-2017-github-development-winners-cdcc151aca58) (rok c.)
+ 
 
 # Todo:
 
