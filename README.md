@@ -29,13 +29,12 @@ a  macOS  &  iOS  Swift  Framework  for  [Ark.io](https://ark.io).
  
 
 # Todo:
-
+- [ ] Implement URLSession
 - [ ] Signature/Cryptographic Integration
 - [ ] Transaction Creation & Signing
 - [ ] Voting
 - [ ] Delegate Registration
-- [ ] TBA*
-- [ ] TBA*
+- [ ] Restructure API
 - [ ] Your suggestions!
 
 
