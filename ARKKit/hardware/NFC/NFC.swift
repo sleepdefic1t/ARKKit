@@ -32,8 +32,8 @@ class NFCScanTransactionViewController: UIViewController, NFCNDEFReaderSessionDe
             scanButton.isEnabled = true
             scanButton.addTarget(self, action: #selector(didTapReadNFC), for: .touchUpInside)
             scanButton.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 230)
-        self.view.addSubview(button)
-            payloadLabel = UILabel(frame: button.frame.offsetBy(dx: 0, dy: 40))
+        self.view.addSubview(scanButton)
+            payloadLabel = UILabel(frame: scanButton.frame.offsetBy(dx: 0, dy: 40))
             payloadLabel.text = "to receive transaction request"
             payloadLabel.textAlignment = .center
             payloadLabel.numberOfLines = 100
